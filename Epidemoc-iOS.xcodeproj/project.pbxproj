@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		110C9B521A3DAEC10057064D /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 110C9B511A3DAEC00057064D /* libEpidemic.a */; };
-		11C57B9E1A3D9C91000A8E65 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57B961A3D9C91000A8E65 /* libz.a */; };
-		11C57B9F1A3D9C91000A8E65 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57B971A3D9C91000A8E65 /* libSDL2.a */; };
-		11C57BA01A3D9C91000A8E65 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57B981A3D9C91000A8E65 /* libSDL2_mixer.a */; };
-		11C57BA11A3D9C91000A8E65 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57B991A3D9C91000A8E65 /* libpng.a */; };
-		11C57BA21A3D9C91000A8E65 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57B9A1A3D9C91000A8E65 /* libpixman-1.a */; };
-		11C57BA41A3D9C91000A8E65 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57B9C1A3D9C91000A8E65 /* libcairo.a */; };
+		115D96AC1A4263DD0085B0E0 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A51A4263DD0085B0E0 /* libz.a */; };
+		115D96AD1A4263DD0085B0E0 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A61A4263DD0085B0E0 /* libSDL2.a */; };
+		115D96AE1A4263DD0085B0E0 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A71A4263DD0085B0E0 /* libSDL2_mixer.a */; };
+		115D96AF1A4263DD0085B0E0 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A81A4263DD0085B0E0 /* libpng.a */; };
+		115D96B01A4263DD0085B0E0 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A91A4263DD0085B0E0 /* libpixman-1.a */; };
+		115D96B11A4263DD0085B0E0 /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96AA1A4263DD0085B0E0 /* libEpidemic.a */; };
+		115D96B21A4263DD0085B0E0 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96AB1A4263DD0085B0E0 /* libcairo.a */; };
 		11C57BE11A3DA1D0000A8E65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C57BE01A3DA1D0000A8E65 /* Default-568h@2x.png */; };
 		11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57BE21A3DA35A000A8E65 /* libiconv.dylib */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -29,7 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		110C9B511A3DAEC00057064D /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
+		115D96A51A4263DD0085B0E0 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
+		115D96A61A4263DD0085B0E0 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
+		115D96A71A4263DD0085B0E0 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
+		115D96A81A4263DD0085B0E0 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		115D96A91A4263DD0085B0E0 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
+		115D96AA1A4263DD0085B0E0 /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
+		115D96AB1A4263DD0085B0E0 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
 		11C57B4B1A3D9C86000A8E65 /* SDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
 		11C57B4C1A3D9C86000A8E65 /* SDL_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
 		11C57B4D1A3D9C86000A8E65 /* SDL_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
@@ -105,12 +111,6 @@
 		11C57B931A3D9C86000A8E65 /* SDL_assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_assert.h; sourceTree = "<group>"; };
 		11C57B941A3D9C86000A8E65 /* close_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = close_code.h; sourceTree = "<group>"; };
 		11C57B951A3D9C86000A8E65 /* begin_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = begin_code.h; sourceTree = "<group>"; };
-		11C57B961A3D9C91000A8E65 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
-		11C57B971A3D9C91000A8E65 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
-		11C57B981A3D9C91000A8E65 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
-		11C57B991A3D9C91000A8E65 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
-		11C57B9A1A3D9C91000A8E65 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
-		11C57B9C1A3D9C91000A8E65 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
 		11C57BA61A3DA077000A8E65 /* HsFFI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsFFI.h; sourceTree = "<group>"; };
 		11C57BA71A3DA0B1000A8E65 /* ghcconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ghcconfig.h; sourceTree = "<group>"; };
 		11C57BA81A3DA0F6000A8E65 /* ghcplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ghcplatform.h; sourceTree = "<group>"; };
@@ -186,21 +186,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115D96AD1A4263DD0085B0E0 /* libSDL2.a in Frameworks */,
+				115D96B21A4263DD0085B0E0 /* libcairo.a in Frameworks */,
+				115D96AC1A4263DD0085B0E0 /* libz.a in Frameworks */,
 				11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */,
+				115D96B01A4263DD0085B0E0 /* libpixman-1.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				11C57BA41A3D9C91000A8E65 /* libcairo.a in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				11C57BA01A3D9C91000A8E65 /* libSDL2_mixer.a in Frameworks */,
-				11C57B9F1A3D9C91000A8E65 /* libSDL2.a in Frameworks */,
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
-				110C9B521A3DAEC10057064D /* libEpidemic.a in Frameworks */,
-				11C57BA21A3D9C91000A8E65 /* libpixman-1.a in Frameworks */,
 				FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */,
 				FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */,
-				11C57B9E1A3D9C91000A8E65 /* libz.a in Frameworks */,
-				11C57BA11A3D9C91000A8E65 /* libpng.a in Frameworks */,
 				FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */,
+				115D96AE1A4263DD0085B0E0 /* libSDL2_mixer.a in Frameworks */,
+				115D96AF1A4263DD0085B0E0 /* libpng.a in Frameworks */,
+				115D96B11A4263DD0085B0E0 /* libEpidemic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,15 +301,23 @@
 		0097E2D412F70C4D00724AC5 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				110C9B511A3DAEC00057064D /* libEpidemic.a */,
-				11C57B961A3D9C91000A8E65 /* libz.a */,
-				11C57B971A3D9C91000A8E65 /* libSDL2.a */,
-				11C57B981A3D9C91000A8E65 /* libSDL2_mixer.a */,
-				11C57B991A3D9C91000A8E65 /* libpng.a */,
-				11C57B9A1A3D9C91000A8E65 /* libpixman-1.a */,
-				11C57B9C1A3D9C91000A8E65 /* libcairo.a */,
+				115D96961A4263990085B0E0 /* i386 */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		115D96961A4263990085B0E0 /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				115D96A51A4263DD0085B0E0 /* libz.a */,
+				115D96A61A4263DD0085B0E0 /* libSDL2.a */,
+				115D96A71A4263DD0085B0E0 /* libSDL2_mixer.a */,
+				115D96A81A4263DD0085B0E0 /* libpng.a */,
+				115D96A91A4263DD0085B0E0 /* libpixman-1.a */,
+				115D96AA1A4263DD0085B0E0 /* libEpidemic.a */,
+				115D96AB1A4263DD0085B0E0 /* libcairo.a */,
+			);
+			path = i386;
 			sourceTree = "<group>";
 		};
 		11C57BAA1A3DA141000A8E65 /* stg */ = {
@@ -538,6 +546,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
+					"$(PROJECT_DIR)/SDL/lib/i386",
 				);
 				PRODUCT_NAME = Epidemic;
 			};
@@ -555,6 +564,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
+					"$(PROJECT_DIR)/SDL/lib/i386",
 				);
 				PRODUCT_NAME = Epidemic;
 			};
