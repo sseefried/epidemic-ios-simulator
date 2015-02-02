@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		115D96AC1A4263DD0085B0E0 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A51A4263DD0085B0E0 /* libz.a */; };
-		115D96AD1A4263DD0085B0E0 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A61A4263DD0085B0E0 /* libSDL2.a */; };
-		115D96AE1A4263DD0085B0E0 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A71A4263DD0085B0E0 /* libSDL2_mixer.a */; };
-		115D96AF1A4263DD0085B0E0 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A81A4263DD0085B0E0 /* libpng.a */; };
-		115D96B01A4263DD0085B0E0 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96A91A4263DD0085B0E0 /* libpixman-1.a */; };
-		115D96B11A4263DD0085B0E0 /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96AA1A4263DD0085B0E0 /* libEpidemic.a */; };
-		115D96B21A4263DD0085B0E0 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115D96AB1A4263DD0085B0E0 /* libcairo.a */; };
+		1121CF591A77662E00FC5493 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1121CF581A77662E00FC5493 /* CoreFoundation.framework */; };
+		1121CF5B1A776E8300FC5493 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1121CF5A1A776E8300FC5493 /* CoreText.framework */; };
+		119B0FA11A7EF31F00C450C0 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F991A7EF31F00C450C0 /* libcairo.a */; };
+		119B0FA21A7EF31F00C450C0 /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9A1A7EF31F00C450C0 /* libEpidemic.a */; };
+		119B0FA31A7EF31F00C450C0 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9B1A7EF31F00C450C0 /* libfreetype.a */; };
+		119B0FA41A7EF31F00C450C0 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9C1A7EF31F00C450C0 /* libpixman-1.a */; };
+		119B0FA51A7EF31F00C450C0 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9D1A7EF31F00C450C0 /* libpng.a */; };
+		119B0FA61A7EF31F00C450C0 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9E1A7EF31F00C450C0 /* libSDL2_mixer.a */; };
+		119B0FA71A7EF31F00C450C0 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9F1A7EF31F00C450C0 /* libSDL2.a */; };
+		119B0FA81A7EF31F00C450C0 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0FA01A7EF31F00C450C0 /* libz.a */; };
 		11C57BE11A3DA1D0000A8E65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C57BE01A3DA1D0000A8E65 /* Default-568h@2x.png */; };
 		11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57BE21A3DA35A000A8E65 /* libiconv.dylib */; };
+		11E39F0C1A7E07FA0079D286 /* slime-splash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11E39F0B1A7E07FA0079D286 /* slime-splash.wav */; };
+		11E39F0E1A7E08060079D286 /* font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11E39F0D1A7E08060079D286 /* font.ttf */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
@@ -29,13 +34,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		115D96A51A4263DD0085B0E0 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
-		115D96A61A4263DD0085B0E0 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
-		115D96A71A4263DD0085B0E0 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
-		115D96A81A4263DD0085B0E0 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
-		115D96A91A4263DD0085B0E0 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
-		115D96AA1A4263DD0085B0E0 /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
-		115D96AB1A4263DD0085B0E0 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
+		1121CF581A77662E00FC5493 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1121CF5A1A776E8300FC5493 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		119B0F991A7EF31F00C450C0 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
+		119B0F9A1A7EF31F00C450C0 /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
+		119B0F9B1A7EF31F00C450C0 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
+		119B0F9C1A7EF31F00C450C0 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
+		119B0F9D1A7EF31F00C450C0 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		119B0F9E1A7EF31F00C450C0 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
+		119B0F9F1A7EF31F00C450C0 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
+		119B0FA01A7EF31F00C450C0 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
 		11C57B4B1A3D9C86000A8E65 /* SDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
 		11C57B4C1A3D9C86000A8E65 /* SDL_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
 		11C57B4D1A3D9C86000A8E65 /* SDL_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
@@ -167,6 +175,8 @@
 		11C57BDF1A3DA141000A8E65 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		11C57BE01A3DA1D0000A8E65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		11C57BE21A3DA35A000A8E65 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		11E39F0B1A7E07FA0079D286 /* slime-splash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "slime-splash.wav"; sourceTree = "<group>"; };
+		11E39F0D1A7E08060079D286 /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.ttf; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Epidemic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epidemic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -186,21 +196,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				115D96AD1A4263DD0085B0E0 /* libSDL2.a in Frameworks */,
-				115D96B21A4263DD0085B0E0 /* libcairo.a in Frameworks */,
-				115D96AC1A4263DD0085B0E0 /* libz.a in Frameworks */,
+				119B0FA81A7EF31F00C450C0 /* libz.a in Frameworks */,
 				11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */,
-				115D96B01A4263DD0085B0E0 /* libpixman-1.a in Frameworks */,
+				119B0FA11A7EF31F00C450C0 /* libcairo.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				119B0FA41A7EF31F00C450C0 /* libpixman-1.a in Frameworks */,
+				119B0FA51A7EF31F00C450C0 /* libpng.a in Frameworks */,
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				1121CF5B1A776E8300FC5493 /* CoreText.framework in Frameworks */,
+				119B0FA31A7EF31F00C450C0 /* libfreetype.a in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				1121CF591A77662E00FC5493 /* CoreFoundation.framework in Frameworks */,
 				FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */,
 				FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */,
 				FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */,
-				115D96AE1A4263DD0085B0E0 /* libSDL2_mixer.a in Frameworks */,
-				115D96AF1A4263DD0085B0E0 /* libpng.a in Frameworks */,
-				115D96B11A4263DD0085B0E0 /* libEpidemic.a in Frameworks */,
+				119B0FA61A7EF31F00C450C0 /* libSDL2_mixer.a in Frameworks */,
+				119B0FA21A7EF31F00C450C0 /* libEpidemic.a in Frameworks */,
+				119B0FA71A7EF31F00C450C0 /* libSDL2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,23 +314,9 @@
 		0097E2D412F70C4D00724AC5 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				115D96961A4263990085B0E0 /* i386 */,
+				11C83ACF1A7C2F7600C4EAC0 /* i386 */,
 			);
 			path = lib;
-			sourceTree = "<group>";
-		};
-		115D96961A4263990085B0E0 /* i386 */ = {
-			isa = PBXGroup;
-			children = (
-				115D96A51A4263DD0085B0E0 /* libz.a */,
-				115D96A61A4263DD0085B0E0 /* libSDL2.a */,
-				115D96A71A4263DD0085B0E0 /* libSDL2_mixer.a */,
-				115D96A81A4263DD0085B0E0 /* libpng.a */,
-				115D96A91A4263DD0085B0E0 /* libpixman-1.a */,
-				115D96AA1A4263DD0085B0E0 /* libEpidemic.a */,
-				115D96AB1A4263DD0085B0E0 /* libcairo.a */,
-			);
-			path = i386;
 			sourceTree = "<group>";
 		};
 		11C57BAA1A3DA141000A8E65 /* stg */ = {
@@ -400,6 +399,21 @@
 			path = storage;
 			sourceTree = "<group>";
 		};
+		11C83ACF1A7C2F7600C4EAC0 /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				119B0F991A7EF31F00C450C0 /* libcairo.a */,
+				119B0F9B1A7EF31F00C450C0 /* libfreetype.a */,
+				119B0F9C1A7EF31F00C450C0 /* libpixman-1.a */,
+				119B0F9D1A7EF31F00C450C0 /* libpng.a */,
+				119B0F9E1A7EF31F00C450C0 /* libSDL2_mixer.a */,
+				119B0F9F1A7EF31F00C450C0 /* libSDL2.a */,
+				119B0FA01A7EF31F00C450C0 /* libz.a */,
+				119B0F9A1A7EF31F00C450C0 /* libEpidemic.a */,
+			);
+			path = i386;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +452,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11E39F0D1A7E08060079D286 /* font.ttf */,
+				11E39F0B1A7E07FA0079D286 /* slime-splash.wav */,
 				FD77A07E0E26BDA900F39101 /* Default.png */,
 				FD77A07C0E26BD8C00F39101 /* Icon.png */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -448,6 +464,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1121CF5A1A776E8300FC5493 /* CoreText.framework */,
+				1121CF581A77662E00FC5493 /* CoreFoundation.framework */,
 				11C57BE21A3DA35A000A8E65 /* libiconv.dylib */,
 				FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */,
 				FD77A0840E26BDB800F39101 /* AudioToolbox.framework */,
@@ -487,6 +505,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = H4977XYSK5;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Epidemoc-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -512,8 +535,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E39F0E1A7E08060079D286 /* font.ttf in Resources */,
 				FD77A07D0E26BD8C00F39101 /* Icon.png in Resources */,
 				FD77A07F0E26BDA900F39101 /* Default.png in Resources */,
+				11E39F0C1A7E07FA0079D286 /* slime-splash.wav in Resources */,
 				11C57BE11A3DA1D0000A8E65 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,19 +561,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
 					"$(PROJECT_DIR)/SDL/lib/i386",
+					"$(PROJECT_DIR)/SDL/lib/armv7",
 				);
 				PRODUCT_NAME = Epidemic;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -556,17 +586,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
 					"$(PROJECT_DIR)/SDL/lib/i386",
+					"$(PROJECT_DIR)/SDL/lib/armv7",
 				);
 				PRODUCT_NAME = Epidemic;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
