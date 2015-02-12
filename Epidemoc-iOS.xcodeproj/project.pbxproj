@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		1121CF591A77662E00FC5493 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1121CF581A77662E00FC5493 /* CoreFoundation.framework */; };
 		1121CF5B1A776E8300FC5493 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1121CF5A1A776E8300FC5493 /* CoreText.framework */; };
-		119B0FA11A7EF31F00C450C0 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F991A7EF31F00C450C0 /* libcairo.a */; };
-		119B0FA21A7EF31F00C450C0 /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9A1A7EF31F00C450C0 /* libEpidemic.a */; };
-		119B0FA31A7EF31F00C450C0 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9B1A7EF31F00C450C0 /* libfreetype.a */; };
-		119B0FA41A7EF31F00C450C0 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9C1A7EF31F00C450C0 /* libpixman-1.a */; };
-		119B0FA51A7EF31F00C450C0 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9D1A7EF31F00C450C0 /* libpng.a */; };
-		119B0FA61A7EF31F00C450C0 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9E1A7EF31F00C450C0 /* libSDL2_mixer.a */; };
-		119B0FA71A7EF31F00C450C0 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0F9F1A7EF31F00C450C0 /* libSDL2.a */; };
-		119B0FA81A7EF31F00C450C0 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119B0FA01A7EF31F00C450C0 /* libz.a */; };
 		11C57BE11A3DA1D0000A8E65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C57BE01A3DA1D0000A8E65 /* Default-568h@2x.png */; };
 		11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57BE21A3DA35A000A8E65 /* libiconv.dylib */; };
+		11CAC3B61A8744A6003EDA7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CAC3B51A8744A6003EDA7F /* Images.xcassets */; };
+		11CAC3B81A874687003EDA7F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CAC3B71A874687003EDA7F /* Icon.png */; };
+		11CAC3D21A88E47F003EDA7F /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3CA1A88E47F003EDA7F /* libcairo.a */; };
+		11CAC3D31A88E47F003EDA7F /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3CB1A88E47F003EDA7F /* libEpidemic.a */; };
+		11CAC3D41A88E47F003EDA7F /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3CC1A88E47F003EDA7F /* libfreetype.a */; };
+		11CAC3D51A88E47F003EDA7F /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3CD1A88E47F003EDA7F /* libpixman-1.a */; };
+		11CAC3D61A88E47F003EDA7F /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3CE1A88E47F003EDA7F /* libpng.a */; };
+		11CAC3D71A88E47F003EDA7F /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3CF1A88E47F003EDA7F /* libSDL2_mixer.a */; };
+		11CAC3D81A88E47F003EDA7F /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3D01A88E47F003EDA7F /* libSDL2.a */; };
+		11CAC3DB1A88E8B4003EDA7F /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAC3DA1A88E8B4003EDA7F /* libz.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		11E39F0C1A7E07FA0079D286 /* slime-splash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11E39F0B1A7E07FA0079D286 /* slime-splash.wav */; };
 		11E39F0E1A7E08060079D286 /* font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11E39F0D1A7E08060079D286 /* font.ttf */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -26,8 +28,6 @@
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD779EDD0E26BA1200F39101 /* CoreAudio.framework */; };
-		FD77A07D0E26BD8C00F39101 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD77A07C0E26BD8C00F39101 /* Icon.png */; };
-		FD77A07F0E26BDA900F39101 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD77A07E0E26BDA900F39101 /* Default.png */; };
 		FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD77A0840E26BDB800F39101 /* AudioToolbox.framework */; };
 		FD77A09D0E26BDE500F39101 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FD77A09C0E26BDE500F39101 /* main.c */; };
 		FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */; };
@@ -36,14 +36,6 @@
 /* Begin PBXFileReference section */
 		1121CF581A77662E00FC5493 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1121CF5A1A776E8300FC5493 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		119B0F991A7EF31F00C450C0 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
-		119B0F9A1A7EF31F00C450C0 /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
-		119B0F9B1A7EF31F00C450C0 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
-		119B0F9C1A7EF31F00C450C0 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
-		119B0F9D1A7EF31F00C450C0 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
-		119B0F9E1A7EF31F00C450C0 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
-		119B0F9F1A7EF31F00C450C0 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
-		119B0FA01A7EF31F00C450C0 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
 		11C57B4B1A3D9C86000A8E65 /* SDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
 		11C57B4C1A3D9C86000A8E65 /* SDL_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
 		11C57B4D1A3D9C86000A8E65 /* SDL_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
@@ -175,6 +167,16 @@
 		11C57BDF1A3DA141000A8E65 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		11C57BE01A3DA1D0000A8E65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		11C57BE21A3DA35A000A8E65 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		11CAC3B51A8744A6003EDA7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Epidemic/Images.xcassets; sourceTree = "<group>"; };
+		11CAC3B71A874687003EDA7F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		11CAC3CA1A88E47F003EDA7F /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
+		11CAC3CB1A88E47F003EDA7F /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
+		11CAC3CC1A88E47F003EDA7F /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
+		11CAC3CD1A88E47F003EDA7F /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
+		11CAC3CE1A88E47F003EDA7F /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		11CAC3CF1A88E47F003EDA7F /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
+		11CAC3D01A88E47F003EDA7F /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
+		11CAC3DA1A88E8B4003EDA7F /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
 		11E39F0B1A7E07FA0079D286 /* slime-splash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "slime-splash.wav"; sourceTree = "<group>"; };
 		11E39F0D1A7E08060079D286 /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.ttf; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -184,8 +186,6 @@
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD779EDD0E26BA1200F39101 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		FD77A07C0E26BD8C00F39101 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		FD77A07E0E26BDA900F39101 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FD77A0840E26BDB800F39101 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FD77A09C0E26BDE500F39101 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -196,24 +196,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119B0FA81A7EF31F00C450C0 /* libz.a in Frameworks */,
+				11CAC3DB1A88E8B4003EDA7F /* libz.a in Frameworks */,
 				11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */,
-				119B0FA11A7EF31F00C450C0 /* libcairo.a in Frameworks */,
+				11CAC3D21A88E47F003EDA7F /* libcairo.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				119B0FA41A7EF31F00C450C0 /* libpixman-1.a in Frameworks */,
-				119B0FA51A7EF31F00C450C0 /* libpng.a in Frameworks */,
+				11CAC3D51A88E47F003EDA7F /* libpixman-1.a in Frameworks */,
+				11CAC3D61A88E47F003EDA7F /* libpng.a in Frameworks */,
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
 				1121CF5B1A776E8300FC5493 /* CoreText.framework in Frameworks */,
-				119B0FA31A7EF31F00C450C0 /* libfreetype.a in Frameworks */,
+				11CAC3D41A88E47F003EDA7F /* libfreetype.a in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
 				1121CF591A77662E00FC5493 /* CoreFoundation.framework in Frameworks */,
 				FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */,
 				FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */,
 				FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */,
-				119B0FA61A7EF31F00C450C0 /* libSDL2_mixer.a in Frameworks */,
-				119B0FA21A7EF31F00C450C0 /* libEpidemic.a in Frameworks */,
-				119B0FA71A7EF31F00C450C0 /* libSDL2.a in Frameworks */,
+				11CAC3D71A88E47F003EDA7F /* libSDL2_mixer.a in Frameworks */,
+				11CAC3D31A88E47F003EDA7F /* libEpidemic.a in Frameworks */,
+				11CAC3D81A88E47F003EDA7F /* libSDL2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +314,14 @@
 		0097E2D412F70C4D00724AC5 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				11C83ACF1A7C2F7600C4EAC0 /* i386 */,
+				11CAC3DA1A88E8B4003EDA7F /* libz.a */,
+				11CAC3CA1A88E47F003EDA7F /* libcairo.a */,
+				11CAC3CB1A88E47F003EDA7F /* libEpidemic.a */,
+				11CAC3CC1A88E47F003EDA7F /* libfreetype.a */,
+				11CAC3CD1A88E47F003EDA7F /* libpixman-1.a */,
+				11CAC3CE1A88E47F003EDA7F /* libpng.a */,
+				11CAC3CF1A88E47F003EDA7F /* libSDL2_mixer.a */,
+				11CAC3D01A88E47F003EDA7F /* libSDL2.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -399,21 +406,6 @@
 			path = storage;
 			sourceTree = "<group>";
 		};
-		11C83ACF1A7C2F7600C4EAC0 /* i386 */ = {
-			isa = PBXGroup;
-			children = (
-				119B0F991A7EF31F00C450C0 /* libcairo.a */,
-				119B0F9B1A7EF31F00C450C0 /* libfreetype.a */,
-				119B0F9C1A7EF31F00C450C0 /* libpixman-1.a */,
-				119B0F9D1A7EF31F00C450C0 /* libpng.a */,
-				119B0F9E1A7EF31F00C450C0 /* libSDL2_mixer.a */,
-				119B0F9F1A7EF31F00C450C0 /* libSDL2.a */,
-				119B0FA01A7EF31F00C450C0 /* libz.a */,
-				119B0F9A1A7EF31F00C450C0 /* libEpidemic.a */,
-			);
-			path = i386;
-			sourceTree = "<group>";
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				11C57BE01A3DA1D0000A8E65 /* Default-568h@2x.png */,
+				11CAC3B71A874687003EDA7F /* Icon.png */,
 				29B97315FDCFA39411CA2CEA /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				0097E29812F70C4D00724AC5 /* SDL */,
@@ -452,10 +445,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11CAC3B51A8744A6003EDA7F /* Images.xcassets */,
 				11E39F0D1A7E08060079D286 /* font.ttf */,
 				11E39F0B1A7E07FA0079D286 /* slime-splash.wav */,
-				FD77A07E0E26BDA900F39101 /* Default.png */,
-				FD77A07C0E26BD8C00F39101 /* Icon.png */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 			);
 			name = Resources;
@@ -536,10 +528,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E39F0E1A7E08060079D286 /* font.ttf in Resources */,
-				FD77A07D0E26BD8C00F39101 /* Icon.png in Resources */,
-				FD77A07F0E26BDA900F39101 /* Default.png in Resources */,
+				11CAC3B61A8744A6003EDA7F /* Images.xcassets in Resources */,
 				11E39F0C1A7E07FA0079D286 /* slime-splash.wav in Resources */,
 				11C57BE11A3DA1D0000A8E65 /* Default-568h@2x.png in Resources */,
+				11CAC3B81A874687003EDA7F /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,24 +553,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
-					"$(PROJECT_DIR)/SDL/lib/i386",
-					"$(PROJECT_DIR)/SDL/lib/armv7",
 				);
 				PRODUCT_NAME = Epidemic;
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Debug;
 		};
@@ -586,22 +579,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
-					"$(PROJECT_DIR)/SDL/lib/i386",
-					"$(PROJECT_DIR)/SDL/lib/armv7",
 				);
 				PRODUCT_NAME = Epidemic;
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Release;
 		};
@@ -617,6 +611,7 @@
 				OTHER_CFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -631,6 +626,7 @@
 				OTHER_CFLAGS = "";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
