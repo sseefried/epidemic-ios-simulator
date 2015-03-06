@@ -1,7 +1,8 @@
 for i in libEpidemic.a libSDL2.a libSDL2_mixer.a \
-         libcairo.a libfreetype.a libpixman-1.a libpng.a libz.a; do
+         libcairo.a libfreetype.a libpixman-1.a libpng.a\
+         libogg.a libvorbis.a libvorbisfile.a libz.a; do
 
-  CMD="lipo armv7/$i aarch64/$i -create -output $i"
+  CMD="lipo i386/$i armv7/$i -create -output $i"
   echo $CMD
   $CMD
 
