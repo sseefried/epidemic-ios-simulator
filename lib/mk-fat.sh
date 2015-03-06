@@ -1,3 +1,9 @@
+#!/bin/bash
+
+THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+cd "$THIS_DIR"
+
 for i in libEpidemic.a libSDL2.a libSDL2_mixer.a \
          libcairo.a libfreetype.a libpixman-1.a libpng.a\
          libogg.a libvorbis.a libvorbisfile.a libz.a; do
