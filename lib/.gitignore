@@ -1,0 +1,2 @@
+# Ignore .a files in this directory. They are generated with mk-fat.sh
+/*.a

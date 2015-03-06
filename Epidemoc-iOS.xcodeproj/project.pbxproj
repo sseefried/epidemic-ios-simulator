@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1107F1571AA6835A0092D77E /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F1351AA6835A0092D77E /* libcairo.a */; };
-		1107F1581AA6835A0092D77E /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F1361AA6835A0092D77E /* libEpidemic.a */; };
-		1107F1591AA6835A0092D77E /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F1371AA6835A0092D77E /* libfreetype.a */; };
-		1107F15A1AA6835A0092D77E /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F1381AA6835A0092D77E /* libpixman-1.a */; };
-		1107F15B1AA6835A0092D77E /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F1391AA6835A0092D77E /* libpng.a */; };
-		1107F15C1AA6835A0092D77E /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F13A1AA6835A0092D77E /* libSDL2.a */; };
-		1107F15D1AA6835A0092D77E /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F13B1AA6835A0092D77E /* libSDL2_mixer.a */; };
-		1107F15E1AA6835A0092D77E /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F13C1AA6835A0092D77E /* libz.a */; };
 		1107F1741AA684B50092D77E /* font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1107F1711AA684B50092D77E /* font.ttf */; };
 		1107F1751AA684B50092D77E /* music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 1107F1721AA684B50092D77E /* music.ogg */; };
 		1107F1761AA684B50092D77E /* slime-splash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1107F1731AA684B50092D77E /* slime-splash.wav */; };
-		1107F1791AA69B0A0092D77E /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F1771AA69B0A0092D77E /* libogg.a */; };
-		1107F17A1AA69B0A0092D77E /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F1781AA69B0A0092D77E /* libvorbis.a */; };
-		1107F17C1AA6A3A60092D77E /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1107F17B1AA6A3A60092D77E /* libvorbisfile.a */; };
 		1121CF591A77662E00FC5493 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1121CF581A77662E00FC5493 /* CoreFoundation.framework */; };
 		1121CF5B1A776E8300FC5493 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1121CF5A1A776E8300FC5493 /* CoreText.framework */; };
+		1155DA391AA94FA0009629F0 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA301AA94FA0009629F0 /* libcairo.a */; };
+		1155DA3A1AA94FA0009629F0 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA311AA94FA0009629F0 /* libfreetype.a */; };
+		1155DA3B1AA94FA0009629F0 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA321AA94FA0009629F0 /* libogg.a */; };
+		1155DA3C1AA94FA0009629F0 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA331AA94FA0009629F0 /* libpixman-1.a */; };
+		1155DA3D1AA94FA0009629F0 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA341AA94FA0009629F0 /* libpng.a */; };
+		1155DA3E1AA94FA0009629F0 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA351AA94FA0009629F0 /* libSDL2_mixer.a */; };
+		1155DA3F1AA94FA0009629F0 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA361AA94FA0009629F0 /* libSDL2.a */; };
+		1155DA401AA94FA0009629F0 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA371AA94FA0009629F0 /* libvorbis.a */; };
+		1155DA411AA94FA0009629F0 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA381AA94FA0009629F0 /* libz.a */; };
+		1155DA431AA952F3009629F0 /* libEpidemic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA421AA952F3009629F0 /* libEpidemic.a */; };
+		1155DA451AA95363009629F0 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155DA441AA95363009629F0 /* libvorbisfile.a */; };
 		11C57BE11A3DA1D0000A8E65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C57BE01A3DA1D0000A8E65 /* Default-568h@2x.png */; };
 		11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C57BE21A3DA35A000A8E65 /* libiconv.dylib */; };
 		11CAC3B61A8744A6003EDA7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CAC3B51A8744A6003EDA7F /* Images.xcassets */; };
@@ -38,23 +38,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1107F1351AA6835A0092D77E /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
-		1107F1361AA6835A0092D77E /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
-		1107F1371AA6835A0092D77E /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
-		1107F1381AA6835A0092D77E /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
-		1107F1391AA6835A0092D77E /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
-		1107F13A1AA6835A0092D77E /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
-		1107F13B1AA6835A0092D77E /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
-		1107F13C1AA6835A0092D77E /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
 		1107F1681AA683EC0092D77E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1107F1711AA684B50092D77E /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = font.ttf; path = assets/font.ttf; sourceTree = "<group>"; };
 		1107F1721AA684B50092D77E /* music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.ogg; path = assets/music.ogg; sourceTree = "<group>"; };
 		1107F1731AA684B50092D77E /* slime-splash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "slime-splash.wav"; path = "assets/slime-splash.wav"; sourceTree = "<group>"; };
-		1107F1771AA69B0A0092D77E /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libogg.a; sourceTree = "<group>"; };
-		1107F1781AA69B0A0092D77E /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbis.a; sourceTree = "<group>"; };
-		1107F17B1AA6A3A60092D77E /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbisfile.a; sourceTree = "<group>"; };
 		1121CF581A77662E00FC5493 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1121CF5A1A776E8300FC5493 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1155DA301AA94FA0009629F0 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcairo.a; sourceTree = "<group>"; };
+		1155DA311AA94FA0009629F0 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
+		1155DA321AA94FA0009629F0 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libogg.a; sourceTree = "<group>"; };
+		1155DA331AA94FA0009629F0 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpixman-1.a"; sourceTree = "<group>"; };
+		1155DA341AA94FA0009629F0 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		1155DA351AA94FA0009629F0 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_mixer.a; sourceTree = "<group>"; };
+		1155DA361AA94FA0009629F0 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
+		1155DA371AA94FA0009629F0 /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbis.a; sourceTree = "<group>"; };
+		1155DA381AA94FA0009629F0 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
+		1155DA421AA952F3009629F0 /* libEpidemic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEpidemic.a; sourceTree = "<group>"; };
+		1155DA441AA95363009629F0 /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbisfile.a; sourceTree = "<group>"; };
 		11C57B4B1A3D9C86000A8E65 /* SDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
 		11C57B4C1A3D9C86000A8E65 /* SDL_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
 		11C57B4D1A3D9C86000A8E65 /* SDL_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
@@ -204,27 +204,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1107F17C1AA6A3A60092D77E /* libvorbisfile.a in Frameworks */,
-				1107F15C1AA6835A0092D77E /* libSDL2.a in Frameworks */,
+				1155DA451AA95363009629F0 /* libvorbisfile.a in Frameworks */,
 				11C57BE31A3DA35A000A8E65 /* libiconv.dylib in Frameworks */,
-				1107F1571AA6835A0092D77E /* libcairo.a in Frameworks */,
-				1107F15B1AA6835A0092D77E /* libpng.a in Frameworks */,
-				1107F1791AA69B0A0092D77E /* libogg.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				1155DA431AA952F3009629F0 /* libEpidemic.a in Frameworks */,
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
 				1121CF5B1A776E8300FC5493 /* CoreText.framework in Frameworks */,
-				1107F1591AA6835A0092D77E /* libfreetype.a in Frameworks */,
-				1107F15A1AA6835A0092D77E /* libpixman-1.a in Frameworks */,
-				1107F15D1AA6835A0092D77E /* libSDL2_mixer.a in Frameworks */,
-				1107F15E1AA6835A0092D77E /* libz.a in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
-				1107F17A1AA69B0A0092D77E /* libvorbis.a in Frameworks */,
 				1121CF591A77662E00FC5493 /* CoreFoundation.framework in Frameworks */,
 				FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */,
 				FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */,
 				FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */,
-				1107F1581AA6835A0092D77E /* libEpidemic.a in Frameworks */,
+				1155DA3F1AA94FA0009629F0 /* libSDL2.a in Frameworks */,
+				1155DA391AA94FA0009629F0 /* libcairo.a in Frameworks */,
+				1155DA3C1AA94FA0009629F0 /* libpixman-1.a in Frameworks */,
+				1155DA3D1AA94FA0009629F0 /* libpng.a in Frameworks */,
+				1155DA3A1AA94FA0009629F0 /* libfreetype.a in Frameworks */,
+				1155DA3E1AA94FA0009629F0 /* libSDL2_mixer.a in Frameworks */,
+				1155DA401AA94FA0009629F0 /* libvorbis.a in Frameworks */,
+				1155DA3B1AA94FA0009629F0 /* libogg.a in Frameworks */,
+				1155DA411AA94FA0009629F0 /* libz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,27 +324,19 @@
 		1107F1201AA6835A0092D77E /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				1107F1341AA6835A0092D77E /* i386 */,
+				1155DA441AA95363009629F0 /* libvorbisfile.a */,
+				1155DA421AA952F3009629F0 /* libEpidemic.a */,
+				1155DA301AA94FA0009629F0 /* libcairo.a */,
+				1155DA311AA94FA0009629F0 /* libfreetype.a */,
+				1155DA321AA94FA0009629F0 /* libogg.a */,
+				1155DA331AA94FA0009629F0 /* libpixman-1.a */,
+				1155DA341AA94FA0009629F0 /* libpng.a */,
+				1155DA351AA94FA0009629F0 /* libSDL2_mixer.a */,
+				1155DA361AA94FA0009629F0 /* libSDL2.a */,
+				1155DA371AA94FA0009629F0 /* libvorbis.a */,
+				1155DA381AA94FA0009629F0 /* libz.a */,
 			);
 			path = lib;
-			sourceTree = "<group>";
-		};
-		1107F1341AA6835A0092D77E /* i386 */ = {
-			isa = PBXGroup;
-			children = (
-				1107F17B1AA6A3A60092D77E /* libvorbisfile.a */,
-				1107F1771AA69B0A0092D77E /* libogg.a */,
-				1107F1781AA69B0A0092D77E /* libvorbis.a */,
-				1107F1351AA6835A0092D77E /* libcairo.a */,
-				1107F1361AA6835A0092D77E /* libEpidemic.a */,
-				1107F1371AA6835A0092D77E /* libfreetype.a */,
-				1107F1381AA6835A0092D77E /* libpixman-1.a */,
-				1107F1391AA6835A0092D77E /* libpng.a */,
-				1107F13A1AA6835A0092D77E /* libSDL2.a */,
-				1107F13B1AA6835A0092D77E /* libSDL2_mixer.a */,
-				1107F13C1AA6835A0092D77E /* libz.a */,
-			);
-			path = i386;
 			sourceTree = "<group>";
 		};
 		11C57BAA1A3DA141000A8E65 /* stg */ = {
@@ -591,11 +583,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/lib/i386",
+					"$(PROJECT_DIR)/lib",
 				);
 				PRODUCT_NAME = Epidemic;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 arm64";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -615,11 +607,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/lib/i386",
+					"$(PROJECT_DIR)/lib",
 				);
 				PRODUCT_NAME = Epidemic;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 arm64";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
