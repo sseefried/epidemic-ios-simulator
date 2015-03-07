@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A9FC759E-AE8D-4F98-A31C-8ADEB8D1A180</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Epidemic-iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8FD14A4C5E12D855865C4A120D5F1B1CFF0650ED</key>
+		<string>github.com:sseefried/epidemic-ios-simulator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Epidemic-iOS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8FD14A4C5E12D855865C4A120D5F1B1CFF0650ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:sseefried/epidemic-ios-simulator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8FD14A4C5E12D855865C4A120D5F1B1CFF0650ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8FD14A4C5E12D855865C4A120D5F1B1CFF0650ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Epidemic-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
