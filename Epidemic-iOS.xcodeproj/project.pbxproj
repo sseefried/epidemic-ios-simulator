@@ -493,9 +493,10 @@
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Epidemic" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
-				1155DA471AA9573D009629F0 /* ShellScript */,
+				1155DA471AA9573D009629F0 /* Run Script */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				118AEFB91ACA713A000BB21E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -555,7 +556,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1155DA471AA9573D009629F0 /* ShellScript */ = {
+		1155DA471AA9573D009629F0 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/lib/mk-fat.sh\"";
+		};
+		118AEFB91ACA713A000BB21E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -566,7 +581,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/lib/mk-fat.sh\"";
+			shellScript = "${SRCROOT}/upx --lzma ${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH} || exit 0";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -592,6 +607,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -602,9 +618,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
+				LLVM_LTO = NO;
 				PRODUCT_NAME = Epidemic;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 i386 arm64";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Debug;
 		};
@@ -618,6 +637,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
@@ -626,9 +646,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
 				);
+				LLVM_LTO = NO;
 				PRODUCT_NAME = Epidemic;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 i386 arm64";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Release;
 		};
